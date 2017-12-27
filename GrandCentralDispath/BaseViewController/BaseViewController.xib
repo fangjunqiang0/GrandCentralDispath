@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BaseViewController">
+            <connections>
+                <outlet property="textView" destination="tAM-ZA-m7B" id="IDn-cT-ouW"/>
+                <outlet property="view" destination="zPW-kr-hQX" id="1dk-5s-iBO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="zPW-kr-hQX">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAM-ZA-m7B">
+                    <rect key="frame" x="16" y="20" width="343" height="647"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="bRL-z6-ORg" firstAttribute="bottom" secondItem="tAM-ZA-m7B" secondAttribute="bottom" id="GGh-DJ-qM6"/>
+                <constraint firstItem="bRL-z6-ORg" firstAttribute="trailing" secondItem="tAM-ZA-m7B" secondAttribute="trailing" constant="16" id="QLm-pI-ond"/>
+                <constraint firstItem="tAM-ZA-m7B" firstAttribute="leading" secondItem="bRL-z6-ORg" secondAttribute="leading" constant="16" id="UjD-b6-L9q"/>
+                <constraint firstItem="tAM-ZA-m7B" firstAttribute="top" secondItem="bRL-z6-ORg" secondAttribute="top" id="pgO-lN-Bw9"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="bRL-z6-ORg"/>
+            <point key="canvasLocation" x="102" y="61"/>
+        </view>
+    </objects>
+</document>

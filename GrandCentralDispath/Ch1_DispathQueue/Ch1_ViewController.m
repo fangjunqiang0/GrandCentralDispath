@@ -40,6 +40,7 @@
     dispatch_async()、dispatch_get_main_queue()、dispatch_queue_create()此处不做解释。
     */
     
+    self.textView.text = @"总结\n本例子，主要说明三个问题：\n1、Dispatch Queue 是什么？字面意思是“派发队列”，如字面意思，是执行处理的的等待队列。开发人员通过dispatch_aysnc等函数API，在Block里面记述想执行处理并追加到Dispatch queue中。Dispatch Queue按照追加的顺序（先进先出FIFO，first in first out）执行处理。例子1\n2、串行队列，就是等前一个队列执行完毕才执行下一个队列。我们可以通过例子2的打印结果，看出serialQueue0-9的打印顺序是正序排列的。\n3、并发队列，每一个队列执行不用等待其他队列是否执行完毕。我们可以通过例子3的打印结果，看出concurrentQueue0-9的打印顺序是混乱的。\n注：\n串行队列使用一个线程\n并发队列使用多个线程，XNU核心决定应当使用的线程数量，执行顺序回根据执行内容及系统状态发生改变。（多次执行例子3即可看出）\ndispatch_async()、dispatch_get_main_queue()、dispatch_queue_create()此处不做解释。";
 
 }
 

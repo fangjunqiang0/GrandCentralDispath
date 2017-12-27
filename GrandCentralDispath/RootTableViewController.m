@@ -90,43 +90,43 @@
     
     switch (indexPath.row) {
         case 0:
-            bvc = [(BaseViewController *)[Ch1_ViewController alloc]init];
+            bvc = [(BaseViewController *)[Ch1_ViewController alloc]initWithNibName:@"BaseViewController" bundle:nil];
             break;
         case 1:
-            bvc = [(BaseViewController *)[Ch2_ViewController alloc]init];
+            bvc = [(BaseViewController *)[Ch2_ViewController alloc]initWithNibName:@"BaseViewController" bundle:nil];
             break;
         case 2:
-            bvc = [(BaseViewController *)[Ch3_ViewController alloc]init];
+            bvc = [(BaseViewController *)[Ch3_ViewController alloc]initWithNibName:@"BaseViewController" bundle:nil];
             break;
         case 3:
-            bvc = [(BaseViewController *)[Ch4_ViewController alloc]init];
+            bvc = [(BaseViewController *)[Ch4_ViewController alloc]initWithNibName:@"BaseViewController" bundle:nil];
             break;
         case 4:
-            bvc = [(BaseViewController *)[Ch5_ViewController alloc]init];
+            bvc = [(BaseViewController *)[Ch5_ViewController alloc]initWithNibName:@"BaseViewController" bundle:nil];
             break;
         case 5:
-            bvc = [(BaseViewController *)[Ch6_ViewController alloc]init];
+            bvc = [(BaseViewController *)[Ch6_ViewController alloc]initWithNibName:@"BaseViewController" bundle:nil];
             break;
         case 6:
-            bvc = [(BaseViewController *)[Ch7_ViewController alloc]init];
+            bvc = [(BaseViewController *)[Ch7_ViewController alloc]initWithNibName:@"BaseViewController" bundle:nil];
             break;
         case 7:
-            bvc = [(BaseViewController *)[Ch8_ViewController alloc]init];
+            bvc = [(BaseViewController *)[Ch8_ViewController alloc]initWithNibName:@"BaseViewController" bundle:nil];
             break;
         case 8:
-            bvc = [(BaseViewController *)[Ch9_ViewController alloc]init];
+            bvc = [(BaseViewController *)[Ch9_ViewController alloc]initWithNibName:@"BaseViewController" bundle:nil];
             break;
         case 9:
-            bvc = [(BaseViewController *)[Ch10_ViewController alloc]init];
+            bvc = [(BaseViewController *)[Ch10_ViewController alloc]initWithNibName:@"BaseViewController" bundle:nil];
             break;
         case 10:
-            bvc = [(BaseViewController *)[Ch11_ViewController alloc]init];
+            bvc = [(BaseViewController *)[Ch11_ViewController alloc]initWithNibName:@"BaseViewController" bundle:nil];
             break;
         case 11:
-            bvc = [(BaseViewController *)[Ch12_ViewController alloc]init];
+            bvc = [(BaseViewController *)[Ch12_ViewController alloc]initWithNibName:@"BaseViewController" bundle:nil];
             break;
         case 12:
-            bvc = [(BaseViewController *)[Ch13_ViewController alloc]init];
+            bvc = [(BaseViewController *)[Ch13_ViewController alloc]initWithNibName:@"BaseViewController" bundle:nil];
             break;
         default:
             break;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		641D9F401FF37336003462DF /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 641D9F3F1FF37336003462DF /* BaseViewController.xib */; };
 		643CDEBA1FEE2D710025F5E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 643CDEB91FEE2D710025F5E9 /* AppDelegate.m */; };
 		643CDEC01FEE2D710025F5E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643CDEBE1FEE2D710025F5E9 /* Main.storyboard */; };
 		643CDEC21FEE2D710025F5E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643CDEC11FEE2D710025F5E9 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		641D9F3F1FF37336003462DF /* BaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
 		643CDEB51FEE2D710025F5E9 /* GrandCentralDispath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrandCentralDispath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		643CDEB81FEE2D710025F5E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		643CDEB91FEE2D710025F5E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -147,7 +149,7 @@
 				643CDEFD1FEE31950025F5E9 /* Ch1_DispathQueue */,
 				643CDEFC1FEE31880025F5E9 /* Ch2_dispath_queue_create */,
 				643CDEFB1FEE31860025F5E9 /* Ch3_MainDispathQueue */,
-				643CDEFA1FEE31840025F5E9 /* Ch4_dispath_set_target_queue */,
+				643CDEFA1FEE31840025F5E9 /* Ch4_dispatch_set_target_queue */,
 				643CDEF91FEE31820025F5E9 /* Ch5_dispath_after */,
 				643CDEF81FEE31810025F5E9 /* Ch6_DispathGroup */,
 				643CDEF71FEE317F0025F5E9 /* Ch7_dispath_barrier_async */,
@@ -193,6 +195,7 @@
 			children = (
 				643CDEEA1FEE2F700025F5E9 /* BaseViewController.h */,
 				643CDEEB1FEE2F700025F5E9 /* BaseViewController.m */,
+				641D9F3F1FF37336003462DF /* BaseViewController.xib */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -278,13 +281,13 @@
 			path = Ch5_dispath_after;
 			sourceTree = "<group>";
 		};
-		643CDEFA1FEE31840025F5E9 /* Ch4_dispath_set_target_queue */ = {
+		643CDEFA1FEE31840025F5E9 /* Ch4_dispatch_set_target_queue */ = {
 			isa = PBXGroup;
 			children = (
 				643CDF071FEE64B80025F5E9 /* Ch4_ViewController.h */,
 				643CDF081FEE64B80025F5E9 /* Ch4_ViewController.m */,
 			);
-			path = Ch4_dispath_set_target_queue;
+			path = Ch4_dispatch_set_target_queue;
 			sourceTree = "<group>";
 		};
 		643CDEFB1FEE31860025F5E9 /* Ch3_MainDispathQueue */ = {
@@ -421,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				643CDEC51FEE2D710025F5E9 /* LaunchScreen.storyboard in Resources */,
+				641D9F401FF37336003462DF /* BaseViewController.xib in Resources */,
 				643CDEC21FEE2D710025F5E9 /* Assets.xcassets in Resources */,
 				643CDEC01FEE2D710025F5E9 /* Main.storyboard in Resources */,
 			);

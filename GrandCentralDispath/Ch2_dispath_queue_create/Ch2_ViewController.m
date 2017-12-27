@@ -31,7 +31,7 @@
      注：关于线程的内存管理 iOS7以后的系统ARC自动管理
      释放：dispatch_release()  保留：dispath_retain()
      */
-    
+    self.textView.text = @"总结:\n本例主要说明两个问题\n1、 通过dispatch_queue_crete()函数生成Dispatch Queue;\n2、dispatch_queue_create() 函数参数说明\n第一参数，指定Dispatch queue 的名称，推荐使用应用程序ID这种全程域名,例如：'com.GrandCentralDispath.mySerialQueue0'。改名称在Xcode和Instruments的调试器中作为Dispatch Queue名称表示。（可加一个断点查看）。\n第二个参数，传NUll或DISPATCH_QUEUE_SERIAL 生成 Serial Dispatch Queue（串行队列）\n传DISPATCH_QUEUE_CONCURRENT 生成 Concurrent Dispatch Queue（并发队列）\n注：关于Serial Dispatch Queue生成个数的问题\n通过dispatch_queue_crete()生成多个Serial Dispatch Queue时，各个Serial Dispatch Queue将并行执行（并发队列）,查看例子1的打印日志\n注：关于线程的内存管理 iOS7以后的系统ARC自动管理\n释放：dispatch_release()  保留：dispath_retain()";
 }
 
 /**

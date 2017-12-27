@@ -11,5 +11,6 @@
 @interface BaseViewController : UIViewController
 
 @property (nonatomic, strong) NSString *navTitle;
+@property (weak, nonatomic) IBOutlet UITextView *textView;
 
 @end
