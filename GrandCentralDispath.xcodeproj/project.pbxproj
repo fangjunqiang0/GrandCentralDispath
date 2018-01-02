@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		641D9F401FF37336003462DF /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 641D9F3F1FF37336003462DF /* BaseViewController.xib */; };
+		64347E931FFB6C6D00AB4409 /* Ch12Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 64347E921FFB6C6D00AB4409 /* Ch12Object.m */; };
 		643CDEBA1FEE2D710025F5E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 643CDEB91FEE2D710025F5E9 /* AppDelegate.m */; };
 		643CDEC01FEE2D710025F5E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643CDEBE1FEE2D710025F5E9 /* Main.storyboard */; };
 		643CDEC21FEE2D710025F5E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643CDEC11FEE2D710025F5E9 /* Assets.xcassets */; };
@@ -52,6 +53,8 @@
 
 /* Begin PBXFileReference section */
 		641D9F3F1FF37336003462DF /* BaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
+		64347E911FFB6C6D00AB4409 /* Ch12Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ch12Object.h; sourceTree = "<group>"; };
+		64347E921FFB6C6D00AB4409 /* Ch12Object.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ch12Object.m; sourceTree = "<group>"; };
 		643CDEB51FEE2D710025F5E9 /* GrandCentralDispath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrandCentralDispath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		643CDEB81FEE2D710025F5E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		643CDEB91FEE2D710025F5E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -218,6 +221,8 @@
 			children = (
 				643CDF1F1FEE65440025F5E9 /* Ch12_ViewController.h */,
 				643CDF201FEE65440025F5E9 /* Ch12_ViewController.m */,
+				64347E911FFB6C6D00AB4409 /* Ch12Object.h */,
+				64347E921FFB6C6D00AB4409 /* Ch12Object.m */,
 			);
 			path = Ch12_dispath_once;
 			sourceTree = "<group>";
@@ -465,6 +470,7 @@
 			files = (
 				643CDF031FEE64A40025F5E9 /* Ch2_ViewController.m in Sources */,
 				643CDEC81FEE2D710025F5E9 /* main.m in Sources */,
+				64347E931FFB6C6D00AB4409 /* Ch12Object.m in Sources */,
 				643CDF121FEE64DE0025F5E9 /* Ch7_ViewController.m in Sources */,
 				643CDEEC1FEE2F700025F5E9 /* BaseViewController.m in Sources */,
 				643CDF151FEE64E80025F5E9 /* Ch8_ViewController.m in Sources */,

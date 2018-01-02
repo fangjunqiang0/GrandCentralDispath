@@ -17,8 +17,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    /*
+     dispatch_suspend函数挂起指定的Dispatch Queue
+     dispatch_resume函数恢复指定的Dispatch Queue
+     */
+    [self dispatchSuspendAndResume];
+    self.textView.text = @"例子1\n    dispatch_suspend函数挂起指定的Dispatch Queue\n    dispatch_resume函数恢复指定的Dispatch Queue";
 }
 
+/**
+ 例子1
+ */
+- (void)dispatchSuspendAndResume {
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    
+    dispatch_suspend(queue);//挂起
+    dispatch_resume(queue);//恢复
+
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

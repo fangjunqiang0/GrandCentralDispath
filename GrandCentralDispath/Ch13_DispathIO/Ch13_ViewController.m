@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    /*
+     Dispatch I/O和Dispatch Data 使用多线程并发的读取或写入大文件。
+     如果想提高文件读取速度，可以尝试使用Dispatch I/O；
+     */
+    
+    self.textView.text = @" Dispatch I/O和Dispatch Data 使用多线程并发的读取或写入大文件。\n如果想提高文件读取速度，可以尝试使用Dispatch I/O；";
 }
 
 - (void)didReceiveMemoryWarning {
