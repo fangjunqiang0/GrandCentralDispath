@@ -30,6 +30,7 @@
 		643CDF1E1FEE65390025F5E9 /* Ch11_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643CDF1D1FEE65390025F5E9 /* Ch11_ViewController.m */; };
 		643CDF211FEE65440025F5E9 /* Ch12_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643CDF201FEE65440025F5E9 /* Ch12_ViewController.m */; };
 		643CDF241FEE65540025F5E9 /* Ch13_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643CDF231FEE65540025F5E9 /* Ch13_ViewController.m */; };
+		64434A1E1FF6271500A6EC12 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 64434A1D1FF6271500A6EC12 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		643CDF201FEE65440025F5E9 /* Ch12_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ch12_ViewController.m; sourceTree = "<group>"; };
 		643CDF221FEE65540025F5E9 /* Ch13_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ch13_ViewController.h; sourceTree = "<group>"; };
 		643CDF231FEE65540025F5E9 /* Ch13_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ch13_ViewController.m; sourceTree = "<group>"; };
+		64434A1D1FF6271500A6EC12 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				643CDED01FEE2D710025F5E9 /* GrandCentralDispathTests */,
 				643CDEDB1FEE2D710025F5E9 /* GrandCentralDispathUITests */,
 				643CDEB61FEE2D710025F5E9 /* Products */,
+				64434A171FF5FC5F00A6EC12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +171,7 @@
 				643CDEC31FEE2D710025F5E9 /* LaunchScreen.storyboard */,
 				643CDEC61FEE2D710025F5E9 /* Info.plist */,
 				643CDEC71FEE2D710025F5E9 /* main.m */,
+				64434A1D1FF6271500A6EC12 /* icon.png */,
 			);
 			path = GrandCentralDispath;
 			sourceTree = "<group>";
@@ -317,6 +321,13 @@
 			path = Ch1_DispathQueue;
 			sourceTree = "<group>";
 		};
+		64434A171FF5FC5F00A6EC12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -424,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				643CDEC51FEE2D710025F5E9 /* LaunchScreen.storyboard in Resources */,
+				64434A1E1FF6271500A6EC12 /* icon.png in Resources */,
 				641D9F401FF37336003462DF /* BaseViewController.xib in Resources */,
 				643CDEC21FEE2D710025F5E9 /* Assets.xcassets in Resources */,
 				643CDEC01FEE2D710025F5E9 /* Main.storyboard in Resources */,

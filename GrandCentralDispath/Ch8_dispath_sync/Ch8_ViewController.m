@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    /*
+     例子1
+     dispatch_async与dispatch_sync
+     dispatch_async()函数的“asyc”意味着“非同步”（asynchronous），就是将指定的Block“非同步”地追加到指定的Dispatch Queue中。dispatch_async函数不做任何等待；
+     dispatch_sync()函数意味着“同步”（asynchronous）
+     */
 }
 
 - (void)didReceiveMemoryWarning {
